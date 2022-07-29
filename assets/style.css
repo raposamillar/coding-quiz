@@ -22,7 +22,7 @@ header {
   cursor: pointer;
 }
 
-.start {
+.start, .questions, .end, .highscores {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,3 +45,41 @@ header {
 #quiz-start:hover {
   background: var(--secondary-color);
 }
+
+#choices {
+    margin: 20px 0px;
+  }
+  
+#choices li, #submit, #clear-scores, #play-again {
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+  }
+
+  #choices li:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+  }
+
+  #submit:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+  }
+
+  #clear-scores:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+  }
+
+  #play-again:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+  }
+
+
+  
+  
+  
